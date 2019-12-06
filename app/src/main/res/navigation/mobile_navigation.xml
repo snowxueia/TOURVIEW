@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tourview.ui.home.HomeFragment"
+        android:label="@string/science"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tourview.ui.gallery.GalleryFragment"
+        android:label="@string/hotel"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.tourview.ui.slideshow.SlideshowFragment"
+        android:label="@string/freedom"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.example.tourview.ui.weather.weatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="com.example.tourview.ui.hotel.HotelFragment"
+        android:label="Hotel"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/nav_freedom"
+        android:name="com.example.tourview.ui.freedom.FreedomFragment"
+        android:label="Freedom Trail"
+        tools:layout="@layout/fragment_freedom" />
+
+</navigation>
+
